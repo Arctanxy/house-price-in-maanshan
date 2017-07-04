@@ -5,7 +5,7 @@ Get house-price everday from 20150101 to 20170701, then get all the news during 
 
 Maanshan is a small city in Anhui province, China.
 
-I came to Maanshan in 2015-07,the average house-price here is 4000 yuan per sqm. It's easy for young people like me to buy a house.
+When I came to Maanshan in 2015-07,the average house-price here was 4000 yuan per sqm. It's easy for young people like me to buy a house.
 
 But when it come to 2017, the house price raised to nearly 10000 yuan per sqm in a few months, this is a strange phenomenon. 
 
