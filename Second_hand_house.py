@@ -63,6 +63,7 @@ def get_price_per_square(url):
             id.append(others[0])
             area.append(float(square[0]))
             price.append(float(others[2]))
+            #然后依次将其他的信息存入列表
         print(text)
         print(strict)
     area = np.array(area)
