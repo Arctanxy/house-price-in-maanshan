@@ -55,8 +55,8 @@ def get_price_per_square(url):
 
     for item in info:
         text = item.xpath('./td/text()')#其他元素
-        others = item.xpath('./td/b/text()')#包含编号，面积，价格三个元素
-        strict = item.xpath('./td/a/text()')#小区信息
+        others = item.xpath('./td/b/text()')#编号，面积，价格三个元素藏在b标签中
+        strict = item.xpath('./td/a/text()')#小区信息藏在a标签中
         if len(others) == 3:
             pattern = re.compile(r'\d+\.?\d+')#匹配整数或者小数
             square = pattern.findall(others[1])
